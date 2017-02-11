@@ -1,0 +1,5 @@
+name: Paragraph_delete
+type: module
+description: 'Delete paragraph entities.'
+core: 8.x
+package: Custom

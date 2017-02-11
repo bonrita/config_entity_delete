@@ -1,0 +1,10 @@
+paragraph_delete.multiple_delete_confirm:
+  path: '/admin/structure/paragraphs_type/{paragraph_type}/delete_all'
+  defaults:
+    _form: '\Drupal\paragraph_delete\Form\ParagraphsTypeDelete'
+  options:
+    parameters:
+      paragraph_type:
+        type: 'entity:paragraphs_type'
+  requirements:
+    _permission: 'administer paragraphs types'
