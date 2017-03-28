@@ -1,0 +1,6 @@
+services:
+  brt_paragraph_delete.paragraph_delete_subscriber:
+    class: Drupal\brt_paragraph_delete\EventSubscriber\ParagraphDelete
+    arguments: ['@current_route_match']
+    tags:
+      - { name: event_subscriber }

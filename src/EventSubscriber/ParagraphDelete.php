@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\paragraph_delete\EventSubscriber;
+namespace Drupal\brt_paragraph_delete\EventSubscriber;
 
 
 use Drupal\Core\Routing\RouteMatchInterface;
@@ -61,7 +61,7 @@ class ParagraphDelete implements EventSubscriberInterface {
             'paragraph_type' => $paragraph_type->id(),
           ];
 
-          $url = $urlGenerator->generateFromRoute('paragraph_delete.multiple_delete_confirm', $route_parameters, $options);
+          $url = $urlGenerator->generateFromRoute('brt_paragraph_delete.multiple_delete_confirm', $route_parameters, $options);
 
           $response = new RedirectResponse($url, 302);
           // Redirect an authenticated user to the profile form.

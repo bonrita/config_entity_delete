@@ -5,7 +5,7 @@
  * This goes for a paragraph that needs to be deleted.
  */
 
-namespace Drupal\paragraph_delete\Form;
+namespace Drupal\brt_paragraph_delete\Form;
 
 
 use Drupal\Core\Cache\CacheableMetadata;

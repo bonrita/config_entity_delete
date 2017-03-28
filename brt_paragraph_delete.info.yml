@@ -1,4 +1,4 @@
-name: Paragraph_delete
+name: BRT Paragraph delete
 type: module
 description: 'Delete paragraph entities.'
 core: 8.x
